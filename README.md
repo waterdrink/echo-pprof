@@ -1,4 +1,4 @@
-echo-pprof
+echo-pprof(echo v4)
 ========
 
 A wrapper for [golang web framework echo](https://github.com/labstack/echo) to use `net/http/pprof` easily.
@@ -17,7 +17,7 @@ go get github.com/waterdrink/echo-pprof
 package main
 
 import (
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	"github.com/waterdrink/echo-pprof"
 )
 
